@@ -2,6 +2,40 @@ import {Movie, MovieCast} from '../shared/types'
 
 export const movies : Movie[] = [
   {
+    id: 1234, 
+    title: "The First Movie",
+    release_date: "2022-01-01",
+    overview: "A great movie.",
+    genre_ids: [1, 2],
+    popularity: 100,
+    vote_count: 1000,
+    vote_average: 7.5,
+    adult: false,
+    backdrop_path: "/path1.jpg",
+    poster_path: "/poster1.jpg",
+    video: false,
+    original_language: "en",
+    original_title: "The First Movie",
+  },
+
+  {
+    id: 2345, 
+    title: "The Second Movie",
+    release_date: "2022-02-01",
+    overview: "An even better movie.",
+    genre_ids: [1, 2],
+    popularity: 200,
+    vote_count: 2000,
+    vote_average: 8.0,
+    adult: false,
+    backdrop_path: "/path2.jpg",
+    poster_path: "/poster2.jpg",
+    video: false,
+    original_language: "en",
+    original_title: "The Second Movie",
+  },
+
+  {
     adult: false,
     backdrop_path: '/sRLC052ieEzkQs9dEtPMfFxYkej.jpg',
     genre_ids: [ 878 ],

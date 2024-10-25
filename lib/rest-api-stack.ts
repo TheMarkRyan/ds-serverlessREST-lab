@@ -102,11 +102,12 @@ export class RestAPIStack extends cdk.Stack {
             timeout: cdk.Duration.seconds(10),
             memorySize: 128,
             environment: {
-              TABLE_NAME: movieCastsTable.tableName,
-              REGION: "eu-west-1",
+              CAST_TABLE_NAME: movieCastsTable.tableName,  
             },
           }
         );
+        
+        
         
 
         
